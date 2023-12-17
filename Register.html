@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+
+<!-- Header Section -->
+<div class="container-fluid">
+  <div class="row custom-header p-3">
+    <!-- Navbar Brand -->
+    <div class="col-lg-2 text-light">
+      <a class="navbar-brand" href="reganthapa.com.np">ReganThapa</a>
+    </div>
+    <!-- Search Form -->
+    <div class="col-lg-7">
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+    </div>
+    <!-- User Links -->
+    <div class="col-lg-3">
+      <ul class="d-flex justify-content-around">
+        <li class="list-unstyled">
+          <a href="login.html" class="text-decoration-none text-light">login</a>
+        </li>
+        <li class="list-unstyled">
+          <a href="Register.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-r-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.5 4.002V12h1.335V8.924H8.52L9.98 12h1.52L9.856 8.701c.828-.299 1.495-1.101 1.495-2.238 0-1.488-1.03-2.461-2.74-2.461H5.5Zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="list-unstyled">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+            <span class="position-absolute translate-middle badge rounded-pill bg-danger">
+              12
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Login form -->
+    <div class="container">
+      <div class="col-md-6 mx-auto shadow-lg p-3 mt-5">
+        <form action="">
+          <h1>Register Form</h1>
+          <hr>
+
+          <div class="mb-3">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Enter your First Name" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Enter your Last Name" class="form-control">
+          </div>
+        <div class="mb-3">
+            <label for="Number">Phone Number</label>
+        <input type="text" id="Number" placeholder="Enter Your Number" class="form-control">
+        </div>
+          <div class="mb-3">
+            <label for="femail">Email</label>
+            <input
+              type="text"
+              id="femail"
+              placeholder="Enter your email"
+              class="form-control"
+            />
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="fpassword">Password</label>
+            <input
+              type="password"
+              id="fpassword"
+              placeholder="Enter your password"
+              class="form-control"
+            />
+            <span id="passwordHelpInline" class="form-text">
+              Must be 8-20 characters long.
+          </div>
+          <div class="col-md-6 mx-auto">
+            <input type="Login" value="Login" class="btn btn-success"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container" bis_skin_checked="1">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="https://www.thaparegan.com.np" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  
+
+  </body>
+</html>
